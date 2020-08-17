@@ -1,0 +1,39 @@
+body{
+  background-image: url(./images/covid1.jpeg);
+  background-size: cover;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container a{
+  color: #303C55;
+  font-size: 1.2em;
+}
+
+.container a:hover{
+  color: #902dd2;
+}
+
+.image{
+  width: 300px;
+  margin-top: 20px;
+}
+@media (max-width: 770px){
+  .container{
+    margin: 0 10%;
+  }
+  .image{
+    width: 100%;
+  }
+}
+
+@media (min-width: 960px){
+  .image{
+    margin-left: -75px;
+  }
+}

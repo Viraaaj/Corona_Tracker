@@ -1,0 +1,25 @@
+.container{
+  margin: 50px 0;
+}
+
+.card{
+  margin: 5% 3% !important;
+}
+
+@media (min-width: 960px){
+  .card{
+    display: inline-block !important;
+  }
+}
+
+.infected{
+  border-bottom: 15px solid rgb(51, 204, 255);
+}
+
+.recovered{
+  border-bottom: 15px solid rgb(102, 255, 102);
+}
+
+.deaths{
+  border-bottom: 15px solid rgb(255, 26, 26);
+}

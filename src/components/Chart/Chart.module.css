@@ -1,0 +1,23 @@
+.container{
+  display: flex;
+  justify-content: center;
+  width: 62%;
+  margin-left: -5%;
+  box-shadow: 0 1px 20px rgba(0, 0, 0, 0.5);
+  margin-bottom: 50px;
+  border-radius: 3%;
+  background-color: rgba(242, 242, 242, 0.5);
+}
+
+@media (min-width: 1000px){
+  .container:hover{
+  background-color: rgba(242, 242, 242, 1);
+  }
+}
+
+@media (max-width: 770px){
+  .container{
+    width: 100%;
+  }
+}
+
