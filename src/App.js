@@ -36,7 +36,7 @@ class App extends React.Component {
         <CountryPicker  handleCountryChange ={this.handleCountryChange} />
         <Chart data= {data} country={country}/>
 
-        <h3><a href="https://github.com/Viraaaj/Corona_Tracker">Viraj/Covid-19 Tracker</a></h3>
+        <h3><a href="https://github.com/Viraaaj/Corona_Tracker" target="_blank">Viraj/Covid-19 Tracker</a></h3>
 
       </div>
 
