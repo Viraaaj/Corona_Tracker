@@ -37,7 +37,7 @@ class App extends React.Component {
         <Chart data= {data} country={country}/>
 
         <h3><a href="https://github.com/Viraaaj/Corona_Tracker" target="_blank">Viraj/Covid-19 Tracker</a></h3>
-
+      
       </div>
 
     )
